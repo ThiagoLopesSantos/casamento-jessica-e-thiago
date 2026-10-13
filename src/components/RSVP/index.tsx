@@ -100,7 +100,7 @@ const RSVP: React.FC = () => {
         {/* CONTAINER DO IFRAME COM TRANSIÇÃO SUAVE NA PROPRIA PÁGINA */}
         <div style={{
           width: '100%',
-          maxWidt: '800px',
+          maxWidth: '800px',
           height: isExpanded ? '650px' : '0px',
           overflow: 'hidden',
           transition: 'height 0.5s ease-in-out, opacity 0.4s ease-in-out',
