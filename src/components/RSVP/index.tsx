@@ -6,7 +6,7 @@ const CHAVE_PIX = '15470236781'
 const NOME_RECEBEDOR = 'THIAGO LOPES SANTOS'
 const CIDADE_RECEBEDOR = 'RIO DE JANEIRO'
 
-const URL_RSVP_VERCEL = 'https://sunshine-events-frontend.vercel.app/convidados/convite.html?evento=3'
+const URL_RSVP_VERCEL = 'https://sunshine-events-frontend.vercel.app/convidados/convite.html?evento=6'
 
 function crc16(data: string): string {
   let crc = 0xffff
@@ -111,8 +111,8 @@ const RSVP: React.FC = () => {
           boxShadow: isExpanded ? '0 15px 35px rgba(62, 58, 53, 0.1)' : 'none',
           backgroundColor: '#ffffff'
         }}>
-          <iframe 
-            src={URL_RSVP_VERCEL} 
+          <iframe
+            src={URL_RSVP_VERCEL}
             title="Sistema de RSVP Vercel"
             style={{ width: '100%', height: '100%', border: 'none' }}
           />
